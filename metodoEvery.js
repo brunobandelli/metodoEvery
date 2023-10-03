@@ -71,17 +71,17 @@ console.log("-------------------------------------------------------------------
 //Exemplo 5: Verificar se todos os valores das propriedades de um objeto são números.
 
 
-  const personNumberPositive = {
+  const personValue = {
     name: 'John',
     age: 30,
     salary: 50000,
   };
   
-  const allPositiveValues = Object.values(personNumberPositive).every(function(value) {
+  const allNumberValues = Object.values(personValue).every(function(value) {
     return typeof value === 'number'
   });
   
-  console.log(allPositiveValues);  // Output: false, pois o valor de name é uma string
+  console.log(allNumberValues);  // Output: false, pois o valor de name é uma string
   
 
 
