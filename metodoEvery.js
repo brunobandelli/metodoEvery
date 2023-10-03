@@ -68,7 +68,7 @@ const personKey = {
 console.log("-----------------------------------------------------------------------------------------------------------")
 
 
-//Exemplo 5: erificar se todos os valores das propriedades de um objeto são números.
+//Exemplo 5: Verificar se todos os valores das propriedades de um objeto são números.
 
 
   const personNumberPositive = {
